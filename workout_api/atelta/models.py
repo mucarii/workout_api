@@ -2,6 +2,8 @@ from datetime import datetime
 from sqlalchemy import Float, ForeignKey, Integer, String, DateTime
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from workout_api.contrib.models import BaseModel
+from workout_api.categorias.models import CategoriaModel
+from workout_api.centro_treinamento.models import CentroTreinamentoModel
 
 
 class AtletaModel(BaseModel):
